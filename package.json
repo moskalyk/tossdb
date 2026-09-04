@@ -1,0 +1,26 @@
+{
+  "name": "tossdb",
+  "version": "0.2.0",
+  "description": "a simple (b-tree) database for reading and writing to disk",
+  "keywords": [
+    "toss",
+    "it",
+    "in",
+    "btree",
+    "series",
+    "disk",
+    "flushing",
+    "memory"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/moskalyk/tossdb"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "test:old": "node test_current.js /data"
+  }
+}
